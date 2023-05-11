@@ -61,7 +61,8 @@ body{
 }
 
 .main-content__endbox {
-    width: 700px;
+   
+    max-width: 700px;
     background-color: var(--bkg);
     /* border-radius: 10px; */
     padding: 20px;
@@ -149,13 +150,19 @@ body{
     }
 
     .main-content__endbox {
+       
         margin-top: 50px;
+        width: 400px;
     }
 
     .main-content-endbox__buttons {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .main-content-endbox__buttons {
+        
     }
   }
   
